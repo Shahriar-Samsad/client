@@ -79,7 +79,8 @@ const Menubar = () => {
             About
           </a>
           <a href="#" className="block text-white hover:text-gray-300 mb-2">
-            Services
+            bal amr heda vore kabo heda vore hagbo
+            
           </a>
           <a href="#" className="block text-white hover:text-gray-300 mb-2">
             Contact
