@@ -21,8 +21,8 @@ const Product = () => {
           </>
         ))}
       </div>
-      <div className="relative my-5">
-          <img src="/am.jpg" className="w-1/2 h-72" alt="loading..." />
+      <div className="relative my-5 overflow-hidden">
+          <img src="/am.jpg" className="w-1/2 h-72  hover:scale-125 transition-transform transition-500" alt="loading..." />
           <div className="absolute text-black top-8 left-4">
             <div className="text-white ">
                 <h1 className="text-2xl my-5">new product</h1>
@@ -45,7 +45,7 @@ const Mango = ({data}) => {
       <div className="relative hover:overflow-hidden">
         <img
           src="/am.jpg"
-          className="w-full h-48 hover:scale-125 transition-all"
+          className="w-full h-48 hover:scale-125 transition-transform transition-500"
         />
         <span className="rounded-full absolute top-1 left-1 bg-red-700 text-white border-2 py-7 p-2">
           sold out
