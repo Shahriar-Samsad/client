@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const Menubar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -80,7 +79,7 @@ const Menubar = () => {
           </a>
           <a href="#" className="block text-white hover:text-gray-300 mb-2">
             bal amr heda vore kabo heda vore hagbo
-            
+
           </a>
           <a href="#" className="block text-white hover:text-gray-300 mb-2">
             Contact

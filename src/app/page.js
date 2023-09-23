@@ -1,11 +1,15 @@
 "use client"
 import Menubar from '@/components/Home/Menubar'
-import Image from 'next/image'
+import Product from '@/components/Home/Product'
+import Slider from '@/components/Home/Slider'
+ 
 
 export default function Home() {
   return (
-    <main>
+    <main >
         <Menubar/>
+        <Slider/>
+        <Product/>
     </main>
   )
 }
